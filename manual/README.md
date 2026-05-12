@@ -54,5 +54,13 @@ Este é um compêndio técnico detalhado cobrindo desde o hardware básico até 
 - [04 Registradores de Controle (CR)](./MODULO_07_EXPANSAO_PLACAS_AUXILIARES/04_mapeamento_cr.md)
 - [05 Exemplo Prático (PT100)](./MODULO_07_EXPANSAO_PLACAS_AUXILIARES/05_exemplo_pratico.md)
 
+### [Módulo 08: Programação ISPSoft](./MODULO_08_ISPSOFT_PROGRAMACAO/)
+*Dominando o ambiente de desenvolvimento moderno da Delta.*
+- [01 Introdução ao ISPSoft](./MODULO_08_ISPSOFT_PROGRAMACAO/01_introduction_ispsoft.md)
+- [02 COMMGR e HWCONFIG](./MODULO_08_ISPSOFT_PROGRAMACAO/02_commgr_hwconfig.md)
+- [03 Programação e POUs](./MODULO_08_ISPSOFT_PROGRAMACAO/03_programacao_pou.md)
+- [04 Variáveis e Símbolos](./MODULO_08_ISPSOFT_PROGRAMACAO/04_variaveis_simbolos.md)
+- [05 Monitoramento e Debug](./MODULO_08_ISPSOFT_PROGRAMACAO/05_monitoramento_debug.md)
+
 ---
 *Organizado para o projeto Teste - 2026*

@@ -68,6 +68,16 @@ const manualStructure = [
             { name: "04 Mapeamento CR", key: "MODULO_07_EXPANSAO_PLACAS_AUXILIARES/04_mapeamento_cr.md" },
             { name: "05 Exemplo PT100", key: "MODULO_07_EXPANSAO_PLACAS_AUXILIARES/05_exemplo_pratico.md" }
         ]
+    },
+    {
+        title: "Módulo 08: ISPSoft",
+        files: [
+            { name: "01 Introdução", key: "MODULO_08_ISPSOFT_PROGRAMACAO/01_introduction_ispsoft.md" },
+            { name: "02 COMMGR/HWCONFIG", key: "MODULO_08_ISPSOFT_PROGRAMACAO/02_commgr_hwconfig.md" },
+            { name: "03 Programação POUs", key: "MODULO_08_ISPSOFT_PROGRAMACAO/03_programacao_pou.md" },
+            { name: "04 Variáveis/Símbolos", key: "MODULO_08_ISPSOFT_PROGRAMACAO/04_variaveis_simbolos.md" },
+            { name: "05 Monitoramento", key: "MODULO_08_ISPSOFT_PROGRAMACAO/05_monitoramento_debug.md" }
+        ]
     }
 ];
 
