@@ -78,6 +78,16 @@ const manualStructure = [
             { name: "04 Variáveis/Símbolos", key: "MODULO_08_ISPSOFT_PROGRAMACAO/04_variaveis_simbolos.md" },
             { name: "05 Monitoramento", key: "MODULO_08_ISPSOFT_PROGRAMACAO/05_monitoramento_debug.md" }
         ]
+    },
+    {
+        title: "Módulo 09: Redes e Protocolos",
+        files: [
+            { name: "01 Introdução Redes", key: "MODULO_09_REDES_INDUSTRIAIS/01_introducao_redes.md" },
+            { name: "02 Modbus RTU / 485", key: "MODULO_09_REDES_INDUSTRIAIS/02_modbus_rtu_rs485.md" },
+            { name: "03 Ethernet Industrial", key: "MODULO_09_REDES_INDUSTRIAIS/03_ethernet_industrial.md" },
+            { name: "04 EtherCAT", key: "MODULO_09_REDES_INDUSTRIAIS/04_ethercat_alta_performance.md" },
+            { name: "05 Comparativo / Boas Práticas", key: "MODULO_09_REDES_INDUSTRIAIS/05_comparativo_boas_praticas.md" }
+        ]
     }
 ];
 

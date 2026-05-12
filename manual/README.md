@@ -62,5 +62,13 @@ Este é um compêndio técnico detalhado cobrindo desde o hardware básico até 
 - [04 Variáveis e Símbolos](./MODULO_08_ISPSOFT_PROGRAMACAO/04_variaveis_simbolos.md)
 - [05 Monitoramento e Debug](./MODULO_08_ISPSOFT_PROGRAMACAO/05_monitoramento_debug.md)
 
+### [Módulo 09: Redes Industriais e Protocolos](./MODULO_09_REDES_INDUSTRIAIS/)
+*Comunicação e conectividade no chão de fábrica.*
+- [01 Introdução às Redes](./MODULO_09_REDES_INDUSTRIAIS/01_introducao_redes.md)
+- [02 Modbus RTU e RS-485](./MODULO_09_REDES_INDUSTRIAIS/02_modbus_rtu_rs485.md)
+- [03 Ethernet Industrial](./MODULO_09_REDES_INDUSTRIAIS/03_ethernet_industrial.md)
+- [04 EtherCAT Alta Performance](./MODULO_09_REDES_INDUSTRIAIS/04_ethercat_alta_performance.md)
+- [05 Comparativo e Boas Práticas](./MODULO_09_REDES_INDUSTRIAIS/05_comparativo_boas_praticas.md)
+
 ---
 *Organizado para o projeto Teste - 2026*
