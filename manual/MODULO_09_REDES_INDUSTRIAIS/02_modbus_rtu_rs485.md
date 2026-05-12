@@ -41,5 +41,29 @@ graph TD
 3. **O Escravo** processa a solicitação e envia uma resposta de volta ao mestre.
 4. **O Mestre** aguarda a resposta (Timeout) antes de enviar a próxima pergunta para o mesmo ou outro escravo.
 
+## 4. Códigos de Função (Function Codes)
+
+O Código de Função diz ao escravo qual tipo de dado o mestre quer acessar e se é uma operação de leitura ou escrita.
+
+### Principais Códigos de Leitura:
+| Código | Nome | O que lê? | Tipo Delta DVP |
+| :--- | :--- | :--- | :--- |
+| **01 (0x01)** | Read Coils | Saídas Digitais (Bits) | Y, M, S |
+| **02 (0x02)** | Read Discrete Inputs | Entradas Digitais (Bits) | X |
+| **03 (0x03)** | Read Holding Registers | Registradores (16-bit) | D, T (valor), C (valor) |
+| **04 (0x04)** | Read Input Registers | Registradores de Entrada | Módulos Analógicos |
+
+### Principais Códigos de Escrita:
+| Código | Nome | O que escreve? | Uso Comum |
+| :--- | :--- | :--- | :--- |
+| **05 (0x05)** | Write Single Coil | Um único Bit | Ligar/Desligar Motor |
+| **06 (0x06)** | Write Single Register | Um único Registrador | Mudar Setpoint |
+| **15 (0x0F)** | Write Multiple Coils | Vários Bits | Resetar Alarmes |
+| **16 (0x10)** | Write Multiple Registers | Bloco de Registradores | Carregar Receita |
+
+### Respostas de Erro (Exceções)
+Se o mestre solicitar um endereço que não existe ou uma função não suportada, o escravo responde com o **Código da Função + 0x80**.
+*Exemplo: Se você enviar Função 03 para um escravo que não a suporta, ele responderá com 0x83 e um código de erro (01: Função Ilegal, 02: Endereço Ilegal).*
+
 ---
 *Módulo 09 - Redes e Protocolos Industriais*
