@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Automação - Preview</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span class="icon">⚙️</span>
+                    <h1>Automação<span>Industrial</span></h1>
+                </div>
+            </div>
+            <nav class="sidebar-nav" id="nav-menu">
+                <!-- Menu items will be injected here -->
+            </nav>
+            <div class="sidebar-footer">
+                <p>v2.0 - 2026</p>
+            </div>
+        </aside>
+        
+        <main class="content-area">
+            <header class="content-header">
+                <div class="breadcrumb" id="breadcrumb">Módulo 01 / Introdução</div>
+                <div class="actions">
+                    <button id="theme-toggle" class="btn-icon">🌓</button>
+                </div>
+            </header>
+            <div class="markdown-body" id="markdown-content">
+                <div class="loader">Carregando conteúdo...</div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script src="manual_content.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
