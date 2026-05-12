@@ -58,6 +58,16 @@ const manualStructure = [
             { name: "01 Blocos (OB/FC/FB)", key: "MODULO_06_ARQUITETURA_AVANCADA_BLOCKS/01_blocos_software_ob_fc_fb.md" },
             { name: "02 Data Blocks (DB)", key: "MODULO_06_ARQUITETURA_AVANCADA_BLOCKS/02_blocos_dados_db.md" }
         ]
+    },
+    {
+        title: "Módulo 07: Placas Auxiliares",
+        files: [
+            { name: "01 Introdução", key: "MODULO_07_EXPANSAO_PLACAS_AUXILIARES/01_introducao_expansao.md" },
+            { name: "02 Instrução FROM", key: "MODULO_07_EXPANSAO_PLACAS_AUXILIARES/02_instrucao_from.md" },
+            { name: "03 Instrução TO", key: "MODULO_07_EXPANSAO_PLACAS_AUXILIARES/03_instrucao_to.md" },
+            { name: "04 Mapeamento CR", key: "MODULO_07_EXPANSAO_PLACAS_AUXILIARES/04_mapeamento_cr.md" },
+            { name: "05 Exemplo PT100", key: "MODULO_07_EXPANSAO_PLACAS_AUXILIARES/05_exemplo_pratico.md" }
+        ]
     }
 ];
 

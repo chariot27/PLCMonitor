@@ -46,5 +46,13 @@ Este é um compêndio técnico detalhado cobrindo desde o hardware básico até 
 - [01 Blocos de Software (OB, FC, FB)](./MODULO_06_ARQUITETURA_AVANCADA_BLOCKS/01_blocos_software_ob_fc_fb.md)
 - [02 Blocos de Dados (DB)](./MODULO_06_ARQUITETURA_AVANCADA_BLOCKS/02_blocos_dados_db.md)
 
+### [Módulo 07: Expansão e Placas Auxiliares](./MODULO_07_EXPANSAO_PLACAS_AUXILIARES/)
+*Uso de FROM/TO e comunicação com módulos especiais.*
+- [01 Introdução aos Módulos](./MODULO_07_EXPANSAO_PLACAS_AUXILIARES/01_introducao_expansao.md)
+- [02 Instrução FROM (Leitura)](./MODULO_07_EXPANSAO_PLACAS_AUXILIARES/02_instrucao_from.md)
+- [03 Instrução TO (Escrita)](./MODULO_07_EXPANSAO_PLACAS_AUXILIARES/03_instrucao_to.md)
+- [04 Registradores de Controle (CR)](./MODULO_07_EXPANSAO_PLACAS_AUXILIARES/04_mapeamento_cr.md)
+- [05 Exemplo Prático (PT100)](./MODULO_07_EXPANSAO_PLACAS_AUXILIARES/05_exemplo_pratico.md)
+
 ---
 *Organizado para o projeto Teste - 2026*
