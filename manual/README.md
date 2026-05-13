@@ -30,6 +30,7 @@ Este é um compêndio técnico detalhado cobrindo desde o hardware básico até 
 - [02 Estrutura de Tramas e CRC](./MODULO_03_MODBUS_PROFUNDO/02_data_frames.md)
 - [03 Instrução MODRW (Leitura/Escrita)](./MODULO_03_MODBUS_PROFUNDO/03_instrucao_modrw.md)
 - [04 Mapeamento de Memória Delta DVP](./MODULO_03_MODBUS_PROFUNDO/04_delta_mapping.md)
+- [05 Configuração do CLP como Escravo](./MODULO_03_MODBUS_PROFUNDO/05_configuracao_slave.md)
 
 ### [Módulo 04: Arquitetura OPC UA Avançada](./MODULO_04_OPC_UA_AVANCADO/)
 *Comunicação moderna, segura e orientada a objetos.*
