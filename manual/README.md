@@ -28,6 +28,7 @@ Este é um compêndio técnico detalhado cobrindo desde o hardware básico até 
 *Dominando a comunicação industrial padrão.*
 - [01 Camadas Físicas e Topologia](./MODULO_03_MODBUS_PROFUNDO/01_physical_layers.md)
 - [02 Estrutura de Tramas e CRC](./MODULO_03_MODBUS_PROFUNDO/02_data_frames.md)
+- [03 Instrução MODRW (Leitura/Escrita)](./MODULO_03_MODBUS_PROFUNDO/03_instrucao_modrw.md)
 - [04 Mapeamento de Memória Delta DVP](./MODULO_03_MODBUS_PROFUNDO/04_delta_mapping.md)
 
 ### [Módulo 04: Arquitetura OPC UA Avançada](./MODULO_04_OPC_UA_AVANCADO/)
