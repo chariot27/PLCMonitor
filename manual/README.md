@@ -55,6 +55,7 @@ Este é um compêndio técnico detalhado cobrindo desde o hardware básico até 
 - [03 Instrução TO (Escrita)](./MODULO_07_EXPANSAO_PLACAS_AUXILIARES/03_instrucao_to.md)
 - [04 Registradores de Controle (CR)](./MODULO_07_EXPANSAO_PLACAS_AUXILIARES/04_mapeamento_cr.md)
 - [05 Exemplo Prático (PT100)](./MODULO_07_EXPANSAO_PLACAS_AUXILIARES/05_exemplo_pratico.md)
+- [06 Datasheet DVP-04TC (Termopares)](./MODULO_07_EXPANSAO_PLACAS_AUXILIARES/06_datasheet_dvp04tc.md)
 
 ### [Módulo 08: Programação ISPSoft](./MODULO_08_ISPSOFT_PROGRAMACAO/)
 *Dominando o ambiente de desenvolvimento moderno da Delta.*
