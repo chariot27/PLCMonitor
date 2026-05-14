@@ -37,4 +37,5 @@ class PLCState:
     rtc: Optional[RTCData] = None
     clicks_x0: int = 0
     clicks_x1: int = 0
+    encoder_value: int = 0
     is_real: bool = True

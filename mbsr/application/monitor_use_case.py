@@ -11,4 +11,4 @@ class MonitorPLCUseCase:
             rtc_now = RTCData.from_now()
             self.gateway.sync_rtc(rtc_now, device_ip)
         
-        return self.gateway.stream_data(device_ip, interval_ms=200)
+        return self.gateway.stream_data(device_ip, interval_ms=500)

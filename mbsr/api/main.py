@@ -58,7 +58,9 @@ mock_db = {
     "registers": [
         {"address": 4096, "name": "Temperatura_Tanque_01", "value": 82.5, "unit": "°C"},
         {"address": 4097, "name": "Pressao_Linha_Principal", "value": 6.2, "unit": "Bar"},
-        {"address": 4098, "name": "Velocidade_Motor_M1", "value": 1750, "unit": "RPM"}
+        {"address": 4098, "name": "Velocidade_Motor_M1", "value": 1750, "unit": "RPM"},
+        {"address": 1024, "name": "Digital_Input_X0", "value": 0, "unit": "bit"},
+        {"address": 1025, "name": "Digital_Input_X1", "value": 1, "unit": "bit"}
     ]
 }
 

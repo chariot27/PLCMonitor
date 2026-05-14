@@ -38,13 +38,16 @@ class GrpcPLCGateway(IPLCGateway):
         for response in self.stub.StreamRegisters(req):
             x0, x1, y0, m1000 = False, False, False, False
             c_s, c_m, c_h, c_dia, c_mes, c_ano = 0, 0, 0, 1, 1, 0
+            encoder_val = 0
             
             for val in response.values:
-                # Digital states
-                if val.address in [1024, 1536] and val.raw_value == 1: x0 = True
-                if val.address in [1025, 1537] and val.raw_value == 1: x1 = True
-                if val.address in [1280, 1600] and val.raw_value == 1: y0 = True
-                if val.address == 3048 and val.raw_value == 1: m1000 = True
+                # Digital states (X0, X1, M1000)
+                if val.address == 1024: x0 = (val.raw_value == 1)
+                if val.address == 1025: x1 = (val.raw_value == 1)
+                if val.address == 3048: m1000 = (val.raw_value == 1)
+                
+                # Encoder
+                if val.address == 3835: encoder_val = int(val.raw_value)
                 
                 # RTC Registers
                 if val.type == pb2.HOLDING_REGISTER:
@@ -69,5 +72,6 @@ class GrpcPLCGateway(IPLCGateway):
                 rtc=rtc_data,
                 clicks_x0=clicks_x0,
                 clicks_x1=clicks_x1,
+                encoder_value=encoder_val,
                 is_real=response.all_ok
             )
