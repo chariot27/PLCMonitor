@@ -64,6 +64,7 @@ Este é um compêndio técnico detalhado cobrindo desde o hardware básico até 
 - [03 Programação e POUs](./MODULO_08_ISPSOFT_PROGRAMACAO/03_programacao_pou.md)
 - [04 Variáveis e Símbolos](./MODULO_08_ISPSOFT_PROGRAMACAO/04_variaveis_simbolos.md)
 - [05 Monitoramento e Debug](./MODULO_08_ISPSOFT_PROGRAMACAO/05_monitoramento_debug.md)
+- [06 Configurando DVP-04TC via HWCONFIG](./MODULO_08_ISPSOFT_PROGRAMACAO/06_exemplo_configuracao_04tc.md)
 
 ### [Módulo 09: Redes Industriais e Protocolos](./MODULO_09_REDES_INDUSTRIAIS/)
 *Comunicação e conectividade no chão de fábrica.*
